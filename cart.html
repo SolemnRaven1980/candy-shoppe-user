@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="shopStyles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="logo">
+            <img src="assets_prod/shoppe logo.png" width="125px">
+        </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="shop.html">Home <i class="glyphicon glyphicon-home"></i></a></li>
+                    <li><a href="product.html">Products <i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+                    <li><a href="about.html">About <i class="glyphicon glyphicon-info-sign"></i></a></li>
+                    <li><a href="#">Contact <i class="glyphicon glyphicon-earphone"></i></a></li>
+                    <li><a href="Index.html">Log Out <i class="glyphicon glyphicon-log-out"></i></a></li>
+                
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="shopping bag.png" width="30px" height="30px"></a>
+            <img src="menu.png" class="menu-icon"
+            onclick="menutoggle()">
+        </div>
+    
+    </div>
+
+    <div class="small-containers cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+
+            </tr>
+            <tr>
+                <td><div class="cart-info">
+                <img src="assets_prod/skittles.jpg">
+            <div>
+                <p>Skittles rainbow pack</p>
+                <small>price:$10.00</small>
+                <br>
+                <a href="">remove</a>
+            </div>
+            </div>
+        </td>
+                <td>3</td>
+                <td>$30.00</td>
+            </tr>
+            <tr>
+                <td><div class="cart-info">
+                <img src="assets_prod/m&m's classic.png">
+            <div>
+                <p>M&M's classic chocolate</p>
+                <small>price:$17.00</small>
+                <br>
+                <a href="">remove</a>
+            </div>
+            </div>
+        </td>
+                <td>2</td>
+                <td>$34.00</td>
+            </tr>
+            <tr>
+                <td><div class="cart-info">
+                <img src="assets_prod/toblerone.jpg">
+            <div>
+                <p>Toblerone pack</p>
+                <small>price:$20.00</small>
+                <br>
+                <a href="">remove</a>
+            </div>
+            </div>
+        </td>
+                <td>1</td>
+                <td>$20.00</td>
+            </tr>
+            
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$84.00</td>
+                    </tr>
+                <tr>
+                    <td>VAT </td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>total</td>
+                    <td>$94.08</td>
+                    </tr>
+                    <tr>
+                        <td><a href="" class="btn" >Pay method</a></td>
+                        </tr>
+            </table>
+        </div>
+    </div>
+
+
+  <!----- Footer  ----->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1"> 
+                <h3>Download our app!</h3>
+                <p>Download the App now for Chances of winning discounts and other sweet deals!</p>
+                <div class="app-logo">
+                    <img src="play-store.png">
+                    <img src="app-store.png">
+                </div>
+            </div>
+            
+            
+            <div class="footer-col-2">
+                <img src="assets_prod/shoppe logo.png">
+                <p>delivering sweets anytime at the press of a button! </p>
+            </div>
+            <div class="footer-col-3">
+                    <h3>links!</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog posts</li>
+                        <li>Return Policy</li>
+                        <li>Terms and Policy</li>
+                        <li>services</li>
+                    </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us!</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter/X</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+
+                </ul>
+        </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2024 candyshop - all rights reserved.</p>
+    </div>
+  </div>
+
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight =="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+        else
+        {
+            MenuItems.style.maxHeight ="0px";
+        }
+    }
+  </script>
+
+ </body>
+ </html>

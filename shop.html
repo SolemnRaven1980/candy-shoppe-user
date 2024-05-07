@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy shop</title>
+    <link rel="stylesheet" type="text/css" href="shopStyles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="header">
+    <div class="wrapper">
+    <div class="navbar">
+        <div class="logo">
+            <img src="assets_prod/shoppe logo.png" width="125px">
+        
+    </div>
+        <nav>
+            
+            <ul id="MenuItems">
+                
+                <li><a href="shop.html">Home <i class="glyphicon glyphicon-home"></i></a></li>
+                <li><a href="product.html">Products <i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+                <li><a href="about.html">About <i class="glyphicon glyphicon-info-sign"></i></a></li>
+                <li><a href="#">Contact <i class="glyphicon glyphicon-earphone"></i></a></li>
+                <li><a href="Index.html">Log Out <i class="glyphicon glyphicon-log-out"></i></a></li>
+            
+            </ul>
+        </nav>
+        <a href="cart.html"> <img src="shopping bag.png" width="30px" height="30px"></a>
+        <img src="menu.png" class="menu-icon"
+        onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>HOT OFFERS!</h1>
+            <p>Dont miss massive discounts and events happening RIGHT NOW!!
+
+            </p>
+            <a href="" class="btn">explore now! &#x279D;</a>
+        </div>
+        <div class="col-2">
+            <img src="candiscount.png">
+        </div>
+    </div>
+
+    </div>
+</div>
+ <!------ featured categories ------>
+
+ <div class="details">
+    <div class="small-containers">
+        <div class="row">
+            <div class="col-35">
+                <img src="assets_prod/Hershey-Symbol-700x394.png">
+                
+
+            </div>
+            <div class="col-35">
+                <img src="assets_prod/skittles_logo.jpg">
+                
+
+            </div>
+            <div class="col-35">
+                <img src="assets_prod/m&m's.jpg">
+                
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+ <!------ featured products ------>
+ <div class="small-containers">
+    <h2 class="title">featured products</h2>
+    <div class="row">
+        <div class="col-4"><a href="prod_dets/prodets.html">
+            <img src="assets_prod/skittles.jpg">
+            <h4>Skittles rainbow pack</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$10.00</p>
+        </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_2.html">
+            <img src="assets_prod/hershey_kissess.png">
+            <h4>hershey's kissess milk chocolate</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <p>$11.00</p>
+            </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_3.html">
+            <img src="assets_prod/m&m's classic.png">
+            <h4>m&m's classic chocolate </h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$17.00</p>
+            </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_4.html">
+            <img src="assets_prod/mars.jpg">
+            <h4>Mars chocolate pack</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$5.00</p>
+        </div>
+        </div>
+        </div>
+    
+
+    <div class="row">
+        <div class="col-4"><a href="prod_dets/prodets_5.html">
+            <img src="assets_prod/tootsie roll.jpg">
+            <h4>tootsie rolls(16 per pack)</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <p>$17.00</p>
+        </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_6.html">
+            <img src="assets_prod/kitkat.png">
+            <h4>kitkat chocolate pack</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$27.00</p>
+            </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_7.html">
+            <img src="assets_prod/nestle assorted.jpg">
+            <h4>Nestle assorted mini bars </h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$13.00</p>
+            </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_8.html">
+            <img src="assets_prod/reese's assorted.jpg">
+            <h4>reese's assorted pack</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$20.00</p>
+        </div>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-4"><a href="prod_dets/prodets_9.html">
+            <img src="assets_prod/cadbury 180.jpg">
+            <h4>Cadbury dairy milk</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <p>$30.00</p>
+        </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_10.html">
+            <img src="assets_prod/mentos.jpg">
+            <h4>mentos pack(15 per pack)</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_11.html">
+            <img src="assets_prod/chupa chups.jpg">
+            <h4>chupa chups assorted</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4"><a href="prod_dets/prodets_12.html">
+            <img src="assets_prod/toblerone.jpg">
+            <h4>Toblerone pack</h4></a>
+            <div class="rating">
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star"></i>
+            <i class="glyphicon glyphicon-star-empty"></i>
+            <p>$20.00</p>
+        </div>
+        </div>
+    </div>
+ </div>
+ </div>
+ 
+ <div class="details">
+    <div class="small-containers">
+        <div class="row">
+            <div class="col-3">
+                <img src="ship.png">
+                
+                <h1>Free shipping</h1>
+                <h3>enjoy free shipping on all orders!</h3>
+            </div>
+            <div class="col-3">
+                <img src="piggy bank.jpg">
+                
+                <h1>Refundable </h1>
+                <h3>Guaranteed refund of order within 7 days!</h3>
+            </div>
+            <div class="col-3">
+                <img src="customer_support.jpg">
+                
+                <h1>Customer services</h1>
+                <h3>We are open for feedback 24/7</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+  <!----- Footer  ----->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app!</h3>
+                <p>Download the App now for Chances of winning discounts and other sweet deals!</p>
+                <div class="app-logo">
+                    <img src="play-store.png">
+                    <img src="app-store.png">
+                </div>
+            </div>
+            
+            
+            <div class="footer-col-2">
+                <img src="assets_prod/shoppe logo.png">
+                <p>delivering sweets anytime at the press of a button! </p>
+            </div>
+            <div class="footer-col-3">
+                    <h3>links!</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog posts</li>
+                        <li>Return Policy</li>
+                        <li>Terms and Policy</li>
+                        <li>services</li>
+                    </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us!</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter/X</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+
+                </ul>
+        </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2024 candyshoppe - all rights reserved.</p>
+    </div>
+  </div>
+
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight =="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+        else
+        {
+            MenuItems.style.maxHeight ="0px";
+        }
+    }
+  </script>
+ </body>
+ </html>

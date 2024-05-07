@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <title>About us!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="about-section">
+        <nav>
+            <ul id="MenuItems">
+                <li>  <a href="shop.html">Home <i class="glyphicon glyphicon-home"></i></a></li>
+                <li>  <a href="product.html">Products <i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+                <li>  <a href="about.html">About <i class="glyphicon glyphicon-info-sign"></i></a></li>
+                <li>  <a href="#">Contact <i class="glyphicon glyphicon-earphone"></i></a></li>
+                <li>  <a href="Index.html">Log Out <i class="glyphicon glyphicon-log-out"></i></a></li>
+            
+            </ul>
+        </nav>
+        <h1>About Us !</h1>
+        <p>Have you ever dreamed of a paradise? a candy paradise where there's candy at every sight?</p>
+        <p>Too bad that candyland doesnt exist.... buuuuut, theres the next best thing!</p>
+        <p>welcoooooooome to candyshoppe! where candy is delivered upon a press of a button! </p>
+        <p>we offer great varieties of sweets and delicious candy. be it sweet, sour or chocolatey! </p>
+      </div>
+ 
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+
+
+              <h2>Francisco, Marverick O.</h2>
+              <p class="title">CEO & Founder</p>
+              <p>the man who started it all. will happy to serve assistance to those craving for sweets!</p>
+
+              <p><button class="button">Contact</button></p>
+
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+
+
+              <h2>Tan, Alfred</h2>
+              <p class="title">Co-founder and financial manager</p>
+              <p>a reliable pair of hands. can count how much candies in the bank before that gum loses flavor.</p>
+
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+
+      </div>
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+    
+        MenuItems.style.maxHeight ="0px";
+    
+        function menutoggle(){
+            if (MenuItems.style.maxHeight =="0px")
+                {
+                    MenuItems.style.maxHeight="200px";
+                }
+            else
+            {
+                MenuItems.style.maxHeight ="0px";
+            }
+        }
+      </script>
+</body>
+</html>
